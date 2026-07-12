@@ -1,12 +1,3 @@
-"""
-app.py
-------
-Entry point for Smart File Toolkit Pro. Handles page configuration,
-sidebar navigation, and dispatch to each feature page. Page bodies live
-in pages/*.py to keep this file small and focused purely on routing.
-
-Run with:  streamlit run app.py
-"""
 
 from __future__ import annotations
 
@@ -30,7 +21,6 @@ PAGE_RENDERERS = {
 
 
 def render_sidebar() -> str:
-    """Render the sidebar navigation and return the selected page key."""
     with st.sidebar:
         st.markdown(
             f"<div class='sft-brand'>{APP_ICON} {APP_NAME}</div>"
