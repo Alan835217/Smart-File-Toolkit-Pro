@@ -9,16 +9,3 @@ pdf2image>=1.17.0
 pandas>=2.2.0
 numpy>=1.26.0
 
-# --- Planned / future auth features ---
-# SQLAlchemy>=2.0.0
-# bcrypt>=4.1.0
-
-# --- System dependencies (install separately, not via pip) ---
-# Tesseract OCR engine:
-#   Ubuntu/Debian: sudo apt-get install tesseract-ocr
-#   macOS:         brew install tesseract
-#   Windows:       https://github.com/UB-Mannheim/tesseract/wiki
-# Poppler (required by pdf2image):
-#   Ubuntu/Debian: sudo apt-get install poppler-utils
-#   macOS:         brew install poppler
-#   Windows:       https://github.com/oschwartz10612/poppler-windows
